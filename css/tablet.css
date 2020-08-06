@@ -1,0 +1,119 @@
+
+.container {
+    width: 100vw;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-list {
+    display: none;
+}
+
+.menu-button {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-button:before, .menu-button:after {
+    content: "";
+    height: 3px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.menu-button:before {
+    top: -10px;
+}
+
+.menu-button:after {
+    bottom: -10px;
+}
+
+.headline {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.trends-header-text {
+    font-size: 18px;
+}
+
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
+    .trend-wrapper {
+        width: 49.5%;
+        margin-bottom: 0.8%;
+    }
+
+    .trend-wrapper:nth-child(odd) {
+        margin-right: 0.5%;
+    }
+
+    .trend-wrapper:nth-child(even) {
+        margin-left: 0.5%;
+    }
+}
+.trend-list-link {
+    font-size: 14px;
+    line-height: 37px;
+}
+
+.header-trend-link {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.main-content {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.posts-list {
+    max-width: 50%;
+}
+
+.post {
+    flex-direction: column;
+}
+
+.link-post {
+    font-size: 14px;
+}
+
+.header-for-post {
+    font-size: 17px;
+}
+
+.text-post {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.list-category-posts {
+    margin-top: 2%;
+}
+
+.shop {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.shop-header-text {
+    font-size: 18px;
+}
+
+.product-cards {
+    flex-wrap: wrap;
+}
+
+.card-product {
+    width: 50%;
+}
