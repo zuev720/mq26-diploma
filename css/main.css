@@ -1,11 +1,11 @@
 @font-face {
     font-family: OpenSans-Regular sans-serif;
-    src: url("/fonts/OpenSans-Regular.woff") format("woff");
+    src: url(/fonts/OpenSans-Regular.woff) format("woff");
 }
 
 @font-face {
     font-family: OpenSans-Bold sans-serif;
-    src: url("/fonts/OpenSans-Bold.woff") format("woff");
+    src: url(/fonts/OpenSans-Bold.woff) format("woff");
 }
 
 * {
@@ -22,7 +22,7 @@ body {
     position: relative;
     width: 100vw;
     background-color: #000000;
-    background-image: url("/img/banner-bg.jpg");
+    background-image: url(/img/banner-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,19 +146,19 @@ body {
 }
 
 .seeding-grow {
-    background-image: url("/img/trend1.jpg");
+    background-image: url(/img/trend1.jpg);
 }
 
 .cheese {
-    background-image: url("/img/trend2.jpg");
+    background-image: url(/img/trend2.jpg);
 }
 
 .mountain-travel {
-    background-image: url("/img/trend3.jpg");
+    background-image: url(/img/trend3.jpg);
 }
 
 .citrus {
-    background-image: url("/img/trend4.jpg");
+    background-image: url(/img/trend4.jpg);
 }
 
 .trend-wrapper:last-child {
@@ -448,7 +448,7 @@ body {
 .input-search-button:after {
     content: "";
     display: inline-block;
-    background-image: url("/svg/search.svg");
+    background-image: url(/svg/search.svg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -718,22 +718,22 @@ body {
 }
 
 .twitter-icons-link {
-    background-image: url("/svg/004-twitter.svg");
+    background-image: url(/svg/004-twitter.svg);
 }
 
 .pinterest-icons-link {
-    background-image: url("/svg/001-pinterest.svg");
+    background-image: url(/svg/001-pinterest.svg);
 }
 
 .facebook-icons-link {
-    background-image: url("/svg/002-facebook-logo.svg");
+    background-image: url(/svg/002-facebook-logo.svg);
 }
 
 .instagram-icons-link {
-    background-image: url("/svg/005-instagram.svg");
+    background-image: url(/svg/005-instagram.svg);
 }
 .tumblr-icons-link {
-    background-image: url("/svg/003-tumblr.svg");
+    background-image: url(/svg/003-tumblr.svg);
 }
 
 .footer-text {
@@ -813,7 +813,7 @@ body {
     background-color: #f4f7f6;
     border: none;
     outline: none;
-    background-image: url("/svg/form-arrows.svg");
+    background-image: url(/svg/form-arrows.svg);
     background-repeat: no-repeat;
     background-size: 8px;
     background-position: right 20px center;
@@ -858,14 +858,14 @@ body {
     height: 15px;
     margin-right: 6px;
     vertical-align: middle;
-    background-image: url("/svg/form-empty-circle.svg");
+    background-image: url(/svg/form-empty-circle.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 .popup-radio:checked + .radio-text::before {
-    background-image: url("/svg/form-circle.svg");
+    background-image: url(/svg/form-circle.svg);
 }
 
 .popup-textarea {
