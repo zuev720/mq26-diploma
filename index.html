@@ -165,7 +165,7 @@
     </main>
 
     <aside class="side-bar">
-        <aside class="side-bar-posts">
+        <section class="side-bar-posts">
             <div class="wrapper-header-side-bar-sections">
                 <h4 class="header-side-bar-section">Новые посты</h4>
             </div>
@@ -204,17 +204,18 @@
                     <h4 class="side-bar-post-header"><a class="side-bar-post-link" href="#">лучшие прически для распущенных волос</a></h4>
                 </div>
             </div>
-        </aside>
-        <form action="#" method="POST">
+        </section>
+        <form action="#" class="search-form" method="POST">
             <div class="search-form-block">
                 <div class="search-form">
                     <label>
                         <input class="search" type="text" placeholder="Найти..." name="search">
-                        <button class="input-search-button" type="button"></button>
                     </label>
+                    <button class="input-search-button" type="button"></button>
                 </div>
             </div>
-
+        </form>
+        <form action="#" class="subscribe-form" method="POST">
             <div class="subscribe-block">
                 <div class="wrapper-header-side-bar-sections">
                     <h4 id="subscribe" class="header-side-bar-section">Рассылка</h4>
@@ -265,14 +266,16 @@
     </header>
     <main class="product-cards">
         <div class="card-product">
-            <div class="product-body">
-                <picture>
-                    <source media="(max-width: 640px)" srcset="img/shop-item-mobile1.jpg">
-                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="img/shop-item-tablet1.jpg">
-                    <img class="product-image" src="img/shop-item-desk1.jpg" alt="pillow">
-                </picture>
+            <picture>
+                <source media="(max-width: 640px)" srcset="img/shop-item-mobile1.jpg">
+                <source media="(min-width: 641px) and (max-width: 1200px)" srcset="img/shop-item-tablet1.jpg">
+                <img class="product-image" src="img/shop-item-desk1.jpg" alt="pillow">
+            </picture>
+            <div class="product-description-block">
+                <div class="description">
                 <h4 class="product-name">Подушки на диван</h4>
                 <p class="product-description">Набор из двух подушек с модными принтами. Видео о создании <a class="product-description-link" href="#">здесь</a>.</p>
+                </div>
                 <div class="buy-block">
                     <div>
                         <p class="old-price">1000 ₽</p>
@@ -280,36 +283,40 @@
                     </div>
                     <a class="buy-button" href="#" type="button">В магазин</a>
                 </div>
-                <div class="frame"></div>
             </div>
         </div>
+
         <div class="card-product">
-            <div class="product-body">
-                <picture>
-                    <source media="(max-width: 640px)" srcset="img/shop-item-mobilet2.jpg">
-                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="img/shop-item-tablet2.jpg">
-                    <img class="product-image" src="img/shop-item-desk2.jpg" alt="rag-doll">
-                </picture>
+            <picture>
+                <source media="(max-width: 640px)" srcset="img/shop-item-mobilet2.jpg">
+                <source media="(min-width: 641px) and (max-width: 1200px)" srcset="img/shop-item-tablet2.jpg">
+                <img class="product-image" src="img/shop-item-desk2.jpg" alt="rag-doll">
+            </picture>
+            <div class="product-description-block">
+                <div class="description">
                 <h4 class="product-name">Кукла «Зайчик»</h4>
                 <p class="product-description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="product-description-link" href="#">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+                </div>
                 <div class="buy-block">
                     <div>
                         <p class="price">3500 ₽</p>
                     </div>
                     <a class="buy-button" href="#" type="button">В магазин</a>
                 </div>
-                <div class="frame"></div>
             </div>
         </div>
+
         <div class="card-product">
-            <div class="product-body">
-                <picture>
-                    <source media="(max-width: 640px)" srcset="img/shop-item-mobilet3.jpg">
-                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="img/shop-item-tablet3.jpg">
-                    <img class="product-image" src="img/shop-item-desk3.jpg" alt="vase">
-                </picture>
+            <picture>
+                <source media="(max-width: 640px)" srcset="img/shop-item-mobilet3.jpg">
+                <source media="(min-width: 641px) and (max-width: 1200px)" srcset="img/shop-item-tablet3.jpg">
+                <img class="product-image" src="img/shop-item-desk3.jpg" alt="vase">
+            </picture>
+            <div class="product-description-block">
+                <div class="description">
                 <h4 class="product-name">Шестиугольная рамка</h4>
                 <p class="product-description">Необычная рамка для украшения дома из видео <a class="product-description-link" href="#">«Как сделать рамку из подручных средств за 30 минут»</a></p>
+                </div>
                 <div class="buy-block">
                     <div>
                         <p class="old-price">500 ₽</p>
@@ -317,7 +324,6 @@
                     </div>
                     <a class="buy-button" href="#" type="button">В магазин</a>
                 </div>
-                <div class="frame"></div>
             </div>
         </div>
     </main>

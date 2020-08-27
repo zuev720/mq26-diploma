@@ -1,5 +1,5 @@
 .header {
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .menu {
@@ -7,7 +7,12 @@
 }
 
 .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.logo-link {
+    margin-top: 30%;
+
 }
 
 .menu-button {
@@ -15,22 +20,19 @@
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
-    border-radius: 5px;
     cursor: pointer;
     z-index: 1;
-    order: 1;
     align-self: flex-end;
+    margin-right: 5%;
 }
 
 .menu-button:before, .menu-button:after {
     content: "";
-    height: 3px;
-    border-radius: 5px;
+    height: 4px;
     background-color: #ffffff;
     position: absolute;
-    left: 0;
-    right: 0;
+    left: -2px;
+    right: -2px;
 }
 
 .menu-button:before {
@@ -41,14 +43,8 @@
     bottom: -10px;
 }
 
-.logo-link {
-    order: 2;
-    margin-top: 50px;
-}
-
 .headline-block {
     max-width: 328px;
-    padding-top: 20px;
 }
 
 .headline {
@@ -126,6 +122,8 @@
 
 .shop {
     min-width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .shop-header-text {
@@ -137,10 +135,7 @@
 }
 
 .card-product {
-    width: 100%;
+    min-width: 285px;
+    max-width: 100%;
 }
 
-.frame {
-    left: 0;
-    right: 0;
-}

@@ -14,20 +14,17 @@
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
-    border-radius: 5px;
     cursor: pointer;
     z-index: 1;
 }
 
 .menu-button:before, .menu-button:after {
     content: "";
-    height: 3px;
-    border-radius: 5px;
+    height: 4px;
     background-color: #ffffff;
     position: absolute;
-    left: 0;
-    right: 0;
+    left: -2px;
+    right: -2px;
 }
 
 .menu-button:before {
@@ -115,5 +112,6 @@
 }
 
 .card-product {
-    width: 50%;
+    min-width: 292px;
+    max-width: 35%;
 }
