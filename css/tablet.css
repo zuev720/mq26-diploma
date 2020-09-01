@@ -1,8 +1,11 @@
-
+.header {
+    padding-left: 3%;
+    padding-right: 3%;
+}
 .container {
     width: 100vw;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .menu-list {
@@ -38,6 +41,7 @@
 .headline {
     font-size: 40px;
     line-height: 55px;
+    flex-wrap: wrap;
 }
 
 .trends-header-text {
@@ -46,18 +50,18 @@
 
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
     .trend-wrapper {
-        width: 49.5%;
-        margin-bottom: 0.8%;
-    }
-
-    .trend-wrapper:nth-child(odd) {
-        margin-right: 0.5%;
-    }
-
-    .trend-wrapper:nth-child(even) {
-        margin-left: 0.5%;
+        width: 100%;
+        margin-bottom: 2%;
     }
 }
+
+.trend-wrapper {
+    width: 49.5%;
+    margin-bottom: 0.4%;
+    margin-right: 0.25%;
+    margin-left: 0.25%;
+}
+
 .trend-list-link {
     font-size: 14px;
     line-height: 37px;
@@ -71,14 +75,19 @@
 .main-content {
     padding-right: 3%;
     padding-left: 3%;
-}
-
-.posts-list {
-    max-width: 50%;
-}
+ }
 
 .post {
+    display: flex;
     flex-direction: column;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-description-block {
+    margin-left: 0;
 }
 
 .link-post {
@@ -91,7 +100,6 @@
 
 .text-post {
     font-size: 15px;
-    line-height: 22px;
 }
 
 .list-category-posts {
@@ -99,19 +107,19 @@
 }
 
 .shop {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .shop-header-text {
     font-size: 18px;
 }
 
-.product-cards {
-    flex-wrap: wrap;
+.card-product {
+    min-width: 46%;
+    margin-bottom: 10%;
 }
 
-.card-product {
-    min-width: 292px;
-    max-width: 35%;
+.product-image {
+    max-width: 100%;
 }

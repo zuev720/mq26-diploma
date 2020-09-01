@@ -1,17 +1,20 @@
 .header {
-    padding-left: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
 }
 
-.menu {
+.menu-list {
     display: none;
 }
 
 .container {
+    width: 100%;
     flex-direction: column-reverse;
 }
 
 .logo-link {
-    margin-top: 30%;
+    margin-top: 20%;
 
 }
 
@@ -57,23 +60,8 @@
 }
 
 .trend-wrapper {
-    width: 49.5%;
-    margin-bottom: 0.8%;
-}
-
-.trend-wrapper:nth-child(odd) {
-    margin-right: 0.5%;
-}
-
-.trend-wrapper:nth-child(even) {
-    margin-left: 0.5%;
-}
-
-@media (max-width: 640px) and (orientation: portrait) {
-    .trend-wrapper {
-        width: 100%;
-        margin-bottom: 0.8%;
-    }
+    width: 100%;
+    margin-bottom: 0.5%;
 }
 
 .trend-list-link {
@@ -85,17 +73,16 @@
 }
 
 .main-content {
+    display: flex;
     flex-direction: column;
-    padding-right: 3%;
-    padding-left: 3%;
-}
-
-.posts-list {
-    min-width: 100%;
+    width: 100vw;
 }
 
 .post {
     flex-direction: column;
+}
+
+.post-image {
     width: 100%;
 }
 
@@ -135,7 +122,6 @@
 }
 
 .card-product {
-    min-width: 285px;
-    max-width: 100%;
+    min-width: 100%;
+    margin-bottom: 10%;
 }
-

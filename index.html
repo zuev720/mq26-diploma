@@ -29,10 +29,12 @@
         <h1 class="headline">Блог о творчестве, спорте, и образе жизни</h1>
     </div>
 </header>
+<header class="headers-project">
+    <div class="general-heading">
+        <h3 class="trends-header-text general-heading-text">Сейчас в тренде</h3>
+    </div>
+</header>
 <aside class="trends">
-    <header class="trends-header">
-        <h3 class="trends-header-text">Сейчас в тренде</h3>
-    </header>
     <div class="trends-line">
         <div class="trend-wrapper seeding-grow">
             <div class="description-trend">
@@ -74,7 +76,9 @@
 <div class="main-content">
     <main class="posts-list">
         <article class="post">
-            <img class="post-image" src="img/last-post1.jpg" alt="man in the sand">
+            <div class="post-image-block">
+              <img class="post-image" src="img/last-post1.jpg" alt="man in the sand">
+            </div>
             <div class="post-description-block">
                 <ul class="list-category-posts">
                     <li class="list-category-item"><a class="link-post" href="#">Travel</a></li>
@@ -91,7 +95,9 @@
             </div>
         </article>
         <article class="post">
-            <img class="post-image" src="img/last-post2.jpg" alt="yoga">
+            <div class="post-image-block">
+              <img class="post-image" src="img/last-post2.jpg" alt="yoga">
+            </div>
             <div class="post-description-block">
                 <ul class="list-category-posts">
                     <li class="list-category-item"><a class="link-post" href="#">health</a></li>
@@ -108,7 +114,9 @@
             </div>
         </article>
         <article class="post">
-            <img class="post-image" src="img/last-post3.jpg" alt="concert">
+            <div class="post-image-block">
+              <img class="post-image" src="img/last-post3.jpg" alt="concert">
+            </div>
             <div class="post-description-block">
                 <ul class="list-category-posts">
                     <li class="list-category-item"><a class="link-post" href="#">music</a></li>
@@ -126,7 +134,9 @@
             </div>
         </article>
         <article class="post">
-            <img class="post-image" src="img/last-post4.jpg" alt="food">
+            <div class="post-image-block">
+              <img class="post-image" src="img/last-post4.jpg" alt="food">
+            </div>
             <div class="post-description-block">
                 <ul class="list-category-posts">
                     <li class="list-category-item"><a class="link-post" href="#">lifestyle</a></li>
@@ -144,7 +154,9 @@
             </div>
         </article>
         <article class="post">
-            <img class="post-image" src="img/last-post5.jpg" alt="pillow">
+            <div class="post-image-block">
+              <img class="post-image" src="img/last-post5.jpg" alt="pillow">
+            </div>
             <div class="post-description-block">
                 <ul class="list-category-posts">
                     <li class="list-category-item"><a class="link-post" href="#"> lifestyle</a></li>
@@ -165,10 +177,12 @@
     </main>
 
     <aside class="side-bar">
-        <section class="side-bar-posts">
-            <div class="wrapper-header-side-bar-sections">
-                <h4 class="header-side-bar-section">Новые посты</h4>
+        <header class="headers-project">
+            <div class="general-heading">
+                <h4 class="header-side-bar-section general-heading-text">Новые посты</h4>
             </div>
+        </header>
+        <section class="side-bar-posts">
             <div class="side-bar-post-block">
                 <img class="side-bar-post-image" src="img/2.jpg" alt="man in the send">
                 <div class="side-bar-post-description-block">
@@ -216,10 +230,12 @@
             </div>
         </form>
         <form action="#" class="subscribe-form" method="POST">
-            <div class="subscribe-block">
-                <div class="wrapper-header-side-bar-sections">
-                    <h4 id="subscribe" class="header-side-bar-section">Рассылка</h4>
+            <header class="headers-project">
+                <div class="general-heading">
+                    <h4 id="subscribe" class="header-side-bar-section general-heading-text">Рассылка</h4>
                 </div>
+            </header>
+            <div class="subscribe-block">
                 <div class="input-email-block">
                     <label>
                         <input class="email" type="email" placeholder="Ваш email-адрес" name="email">
@@ -229,10 +245,14 @@
             </div>
         </form>
 
+        <header class="headers-project">
+            <header class="headers-project">
+                <div class="general-heading">
+                    <h4 class="header-side-bar-section general-heading-text">теги</h4>
+                </div>
+            </header>
+        </header>
         <article class="tags">
-            <div class="wrapper-header-side-bar-sections">
-                <h4 class="header-side-bar-section">теги</h4>
-            </div>
             <ul class="list-tags">
                 <li class="list-tags-item"><a class="link-tags-item" href="#">Fashion</a></li>
                 <li class="list-tags-item"><a class="link-tags-item" href="#">MuSiC</a></li>
@@ -244,26 +264,45 @@
                 <li class="list-tags-item"><a class="link-tags-item" href="#">health</a></li>
             </ul>
         </article>
-        <article class="categories">
-            <div class="wrapper-header-side-bar-sections">
-                <h4 class="header-side-bar-section">темы</h4>
+        <header class="headers-project">
+            <div class="general-heading">
+                <h4 class="header-side-bar-section general-heading-text">темы</h4>
             </div>
+        </header>
+        <article class="categories">
             <ul class="categories-list">
-                <li class="categories-list-item"><a href="#" class="link-categories-item">красота<span class="mount-posts-categories">12</span></a></li>
-                <li class="categories-list-item"><a href="#" class="link-categories-item">здоровье<span class="mount-posts-categories">4</span></a></li>
-                <li class="categories-list-item"><a href="#" class="link-categories-item lifestyle">Образ жизни<span class="mount-posts-categories">145</span></a></li>
-                <li class="categories-list-item"><a href="#" class="link-categories-item">музыка<span class="mount-posts-categories">28</span></a></li>
-                <li class="categories-list-item"><a href="#" class="link-categories-item">спорт<span class="mount-posts-categories">62</span></a></li>
-                <li class="categories-list-item"><a href="#" class="link-categories-item">йога<span class="mount-posts-categories">8</span></a></li>
+                <li class="categories-list-item">
+                    <a href="#" class="link-categories-item">музыка</a><span class="mount-posts-categories">28</span></li>
+                <li class="categories-list-item">
+                    <a href="#" class="link-categories-item lifestyle">Образ жизни</a>
+                    <span class="mount-posts-categories">145</span>
+                </li>
+                <li class="categories-list-item">
+                    <a href="#" class="link-categories-item">здоровье</a>
+                    <span class="mount-posts-categories">4</span>
+                </li>
+                <li class="categories-list-item">
+                    <a href="#" class="link-categories-item">красота</a>
+                    <span class="mount-posts-categories">12</span>
+                </li>
+                <li class="categories-list-item">
+                    <a href="#" class="link-categories-item">спорт</a>
+                    <span class="mount-posts-categories">62</span>
+                </li>
+                <li class="categories-list-item">
+                    <a href="#" class="link-categories-item">йога</a>
+                    <span class="mount-posts-categories">8</span>
+                </li>
             </ul>
         </article>
     </aside>
 </div>
-
+<header class="headers-project">
+    <div class="general-heading">
+        <h3 class="shop-header-text general-heading-text">наши изделия</h3>
+    </div>
+</header>
 <section class="shop">
-    <header class="shop-header">
-        <h3 class="shop-header-text">наши изделия</h3>
-    </header>
     <main class="product-cards">
         <div class="card-product">
             <picture>
