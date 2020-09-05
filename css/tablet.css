@@ -44,6 +44,15 @@
     flex-wrap: wrap;
 }
 
+.main-content {
+    min-width: 100%;
+}
+
+.headers-project {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
 .trends-header-text {
     font-size: 18px;
 }
@@ -72,7 +81,7 @@
     line-height: 22px;
 }
 
-.main-content {
+.main-posts-content {
     padding-right: 3%;
     padding-left: 3%;
  }
@@ -107,8 +116,10 @@
 }
 
 .shop {
-    padding-left: 10%;
-    padding-right: 10%;
+    min-width: 100%;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .shop-header-text {

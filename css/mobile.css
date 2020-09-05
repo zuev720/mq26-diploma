@@ -9,7 +9,7 @@
 }
 
 .container {
-    width: 100%;
+    max-width: 100%;
     flex-direction: column-reverse;
 }
 
@@ -55,6 +55,10 @@
     line-height: 36px;
 }
 
+.trends-line {
+    margin-top: 3%;
+}
+
 .trends-header-text {
     font-size: 16px;
 }
@@ -73,9 +77,13 @@
 }
 
 .main-content {
+    width: 100%;
+}
+
+.main-posts-content {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
 }
 
 .post {
