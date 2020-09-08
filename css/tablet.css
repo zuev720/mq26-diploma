@@ -44,10 +44,6 @@
     flex-wrap: wrap;
 }
 
-.main-content {
-    min-width: 100%;
-}
-
 .headers-project {
     padding-top: 2%;
     padding-bottom: 3%;
